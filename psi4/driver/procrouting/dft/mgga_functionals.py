@@ -297,6 +297,18 @@ funcs.append({
     "description": '    Tau HCTH Meta-GGA XC Functional\n',
 })
 
+funcs.append({
+    "name": "TM",
+    "x_functionals": {
+        "MGGA_X_TM": {}
+    },
+    "c_functionals": {
+        "MGGA_C_TM": {}
+    },
+    "description": '    TM Meta-GGA XC Functional\n',
+    "citation": '    J. Tao and Y. Mo., Phys. Rev. Lett. 117, 073001, 2016\n',
+})
+
 functional_list = {}
 for functional in funcs:
     functional_list[functional["name"].lower()] = functional
