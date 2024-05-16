@@ -146,6 +146,7 @@ funcs.append({"name": "R2SCAN0"        , "xc_functionals": {"HYB_MGGA_XC_R2SCAN0
 funcs.append({"name": "R2SCANh"        , "xc_functionals": {"HYB_MGGA_XC_R2SCANH"       : {}}})
 funcs.append({"name": "R2SCAN50"       , "xc_functionals": {"HYB_MGGA_XC_R2SCAN50"      : {}}})
 funcs.append({"name": "HFLYP"          , "xc_functionals": {"HYB_GGA_XC_HFLYP"          : {}}})
+funcs.append({"name": "B97"            , "xc_functionals": {"HYB_GGA_XC_B97"            : {}}})
 # yapf: enable
 
 functional_list = {}
