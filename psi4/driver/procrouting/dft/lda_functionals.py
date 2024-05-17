@@ -51,6 +51,30 @@ funcs.append({
     }
 })
 
+funcs.append({
+    "name": "HFPW92",
+    "description": "HF exchange with PW correlation functionals",
+    "citation": '    J. P. Perdew, Y. Wang., Phys. Rev. B 45, 13244, 1992\n',
+    "x_hf": {
+        "alpha": 1.0
+    },
+    "c_functionals": {
+        "LDA_C_PW": {}
+    }
+})
+
+funcs.append({
+    "name": "SVWN5",
+    "description": "Slater exchange with VWN correlation functionals",
+    "citation": '    S. H. Vosko, L. Wilk, M. Nusair., Can. J. Phys. 58, 1200, 1980\n',
+    "x_functionals": {
+        "LDA_X": {}
+    },
+    "c_functionals": {
+        "LDA_C_VWN": {}
+    }
+})
+
 functional_list = {}
 for functional in funcs:
     functional_list[functional["name"].lower()] = functional

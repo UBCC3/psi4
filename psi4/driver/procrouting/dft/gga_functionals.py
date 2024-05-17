@@ -372,6 +372,47 @@ funcs.append({
     },
 })
 
+funcs.append({
+    "name": "BPBE",
+    "x_functionals": {
+        "GGA_X_B88": {}
+    },
+    "c_functionals": {
+        "GGA_C_PBE": {}
+    },
+    "description":
+    '    B88 exchange + PBE correlation density functional\n',
+    "citation":
+    '    A. D. Becke., Phys. Rev. A 38, 3098, 1988\n' +
+    '    J. P. Perdew, K. Burke, and M. Ernzerhof., Phys. Rev. Lett. 77, 3865, 1996\n' +
+    '    J. P. Perdew, K. Burke, and M. Ernzerhof., Phys. Rev. Lett. 78, 1396, 1997\n',
+})
+
+funcs.append({
+    "name": "OLYP",
+    "x_functionals": {
+        "GGA_X_OPTX": {}
+    },
+    "c_functionals": {
+        "GGA_C_LYP": {}
+    },
+    "description": '    OPTX exchange + LYP correlation density functional\n',
+    "citation": '    N. C. Handy, A. J. Cohen., Mol. Phys. 99, 403, 2001\n',
+})
+
+funcs.append({
+    "name": "RPW86PBE",
+    "alias": ["RPW86-PBE", "RPW86_PBE"],
+    "x_functionals": {
+        "GGA_X_RPW86": {}
+    },
+    "c_functionals": {
+        "GGA_C_PBE": {}
+    },
+    "description": '    RPW86 exchange + LYP correlation density functional\n',
+    "citation": '    É. D. Murray, K. Lee, D. C. Langreth., J. Chem. Theory Comput. 5, 2754, 2009\n',
+})
+
 
 functional_list = {}
 for functional in funcs:

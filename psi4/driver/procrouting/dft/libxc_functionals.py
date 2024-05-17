@@ -147,6 +147,7 @@ funcs.append({"name": "R2SCANh"        , "xc_functionals": {"HYB_MGGA_XC_R2SCANH
 funcs.append({"name": "R2SCAN50"       , "xc_functionals": {"HYB_MGGA_XC_R2SCAN50"      : {}}})
 funcs.append({"name": "HFLYP"          , "xc_functionals": {"HYB_GGA_XC_HFLYP"          : {}}})
 funcs.append({"name": "B97"            , "xc_functionals": {"HYB_GGA_XC_B97"            : {}}})
+funcs.append({"name": "LC-wPBE08"      , "xc_functionals": {"HYB_GGA_XC_LC_WPBE08_WHS"  : {}}, "alias": ["LC_wPBE08"]})
 # yapf: enable
 
 functional_list = {}
