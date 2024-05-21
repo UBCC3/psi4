@@ -73,7 +73,7 @@ funcs.append({"name": "B3P86"          , "xc_functionals": {"HYB_GGA_XC_B3P86"  
 funcs.append({"name": "O3LYP"          , "xc_functionals": {"HYB_GGA_XC_O3LYP"          : {}}})
 funcs.append({"name": "mPW1K"          , "xc_functionals": {"HYB_GGA_XC_mPW1K"          : {}}})
 funcs.append({"name": "PBE0"           , "xc_functionals": {"HYB_GGA_XC_PBEH"           : {}}, "alias": ["PBEH"]})
-funcs.append({"name": "B97-0"          , "xc_functionals": {"HYB_GGA_XC_B97"            : {}}})
+funcs.append({"name": "B97-0"          , "xc_functionals": {"HYB_GGA_XC_B97"            : {}}, "alias": ["B97"]})
 funcs.append({"name": "B97-1"          , "xc_functionals": {"HYB_GGA_XC_B97_1"          : {}}})
 funcs.append({"name": "B97-2"          , "xc_functionals": {"HYB_GGA_XC_B97_2"          : {}}})
 funcs.append({"name": "X3LYP"          , "xc_functionals": {"HYB_GGA_XC_X3LYP"          : {}}})
@@ -146,7 +146,6 @@ funcs.append({"name": "R2SCAN0"        , "xc_functionals": {"HYB_MGGA_XC_R2SCAN0
 funcs.append({"name": "R2SCANh"        , "xc_functionals": {"HYB_MGGA_XC_R2SCANH"       : {}}})
 funcs.append({"name": "R2SCAN50"       , "xc_functionals": {"HYB_MGGA_XC_R2SCAN50"      : {}}})
 funcs.append({"name": "HFLYP"          , "xc_functionals": {"HYB_GGA_XC_HFLYP"          : {}}})
-funcs.append({"name": "B97"            , "xc_functionals": {"HYB_GGA_XC_B97"            : {}}})
 funcs.append({"name": "LC-wPBE08"      , "xc_functionals": {"HYB_GGA_XC_LC_WPBE08_WHS"  : {}}, "alias": ["LC_wPBE08"]})
 # yapf: enable
 
