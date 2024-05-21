@@ -382,10 +382,6 @@ funcs.append({
     },
     "description":
     '    B88 exchange + PBE correlation density functional\n',
-    "citation":
-    '    A. D. Becke., Phys. Rev. A 38, 3098, 1988\n' +
-    '    J. P. Perdew, K. Burke, and M. Ernzerhof., Phys. Rev. Lett. 77, 3865, 1996\n' +
-    '    J. P. Perdew, K. Burke, and M. Ernzerhof., Phys. Rev. Lett. 78, 1396, 1997\n',
 })
 
 funcs.append({
@@ -410,7 +406,6 @@ funcs.append({
         "GGA_C_PBE": {}
     },
     "description": '    RPW86 exchange + LYP correlation density functional\n',
-    "citation": '    É. D. Murray, K. Lee, D. C. Langreth., J. Chem. Theory Comput. 5, 2754, 2009\n',
 })
 
 

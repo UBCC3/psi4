@@ -306,7 +306,6 @@ funcs.append({
         "MGGA_C_TM": {}
     },
     "description": '    TM Meta-GGA XC Functional\n',
-    "citation": '    J. Tao and Y. Mo., Phys. Rev. Lett. 117, 073001, 2016\n',
 })
 
 funcs.append({
@@ -318,7 +317,6 @@ funcs.append({
         "MGGA_C_TPSSLOC": {}
     },
     "description": '    BLOC Meta-GGA XC Functional\n',
-    "citation": '    L. A. Constantin, E. Fabiano, F. Della Sala., J. Chem. Theory Comput. 9, 2256, 2013.\n',
 })
 
 funcs.append({
@@ -330,7 +328,6 @@ funcs.append({
         "GGA_C_PBE_SOL": {}
     },
     "description": '    mBEEF Meta-GGA XC Functional\n',
-    "citation": '    J. Wellendorff, K. T. Lundgaard, K. W. Jacobsen, T. Bligaard., J. Chem. Phys. 140, 144107, 2014.\n',
 })
 
 functional_list = {}
