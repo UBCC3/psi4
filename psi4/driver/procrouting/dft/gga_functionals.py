@@ -217,6 +217,7 @@ funcs.append({
 #           }})
 #   and let the dict_builder fill out -D2, -D3(BJ), etc. Leaving the
 #   explicit definitions below so plain 'b97' isn't further confused.
+# Plain B97 (no "-D") has been renamed to "B97-0" to avoid naming collisions caused by QCEngine.
 
 funcs.append({
     "name": "B97-D2",
