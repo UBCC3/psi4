@@ -73,8 +73,7 @@ funcs.append({"name": "B3P86"          , "xc_functionals": {"HYB_GGA_XC_B3P86"  
 funcs.append({"name": "O3LYP"          , "xc_functionals": {"HYB_GGA_XC_O3LYP"          : {}}})
 funcs.append({"name": "mPW1K"          , "xc_functionals": {"HYB_GGA_XC_mPW1K"          : {}}})
 funcs.append({"name": "PBE0"           , "xc_functionals": {"HYB_GGA_XC_PBEH"           : {}}, "alias": ["PBEH"]})
-#                      B97 -> Use B97-0. Renamed to maintain compatibility with QCEngine
-#                               It cannot be aliased since that would interfere with B97-D*
+#                      B97 -> Use B97-0. See https://forum.psicode.org/t/which-b97-is-which/3075/2
 funcs.append({"name": "B97-0"          , "xc_functionals": {"HYB_GGA_XC_B97"            : {}}})
 funcs.append({"name": "B97-1"          , "xc_functionals": {"HYB_GGA_XC_B97_1"          : {}}})
 funcs.append({"name": "B97-2"          , "xc_functionals": {"HYB_GGA_XC_B97_2"          : {}}})
