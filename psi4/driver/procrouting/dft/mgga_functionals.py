@@ -330,6 +330,58 @@ funcs.append({
     "description": '    mBEEF Meta-GGA XC Functional\n',
 })
 
+funcs.append({
+    "name": "OTPSS-D",
+    "xc_functionals": {
+        "MGGA_XC_OTPSS_D": {}
+    },
+    "dispersion": {
+        "type": "d2",
+        "params": {
+            's6': 1.0, 
+            'alpha6': 20.0,
+            'sr6': 1.15
+        },
+        "citation": '    L. Goerigk, S. Grimme, J. Chem. Theory. Comput. 6, 107-126, 2010\n'
+    },
+    'alias': ['OTPSS-D2'],
+})
+funcs.append({
+    "name": "OTPSS-D3ZERO",
+    "xc_functionals": {
+        "MGGA_XC_OTPSS_D": {}
+    },
+    "dispersion": {
+        "type": "d3zero2b",
+        "params": {
+            's6': 1.0,
+            's8': 1.494,
+            'sr6': 1.128,
+            'alpha6': 14.0,
+            'sr8': 1.000
+        },
+        "citation": '    Grimme DFT-D3 Homepage. https://www.chemie.uni-bonn.de/grimme/de/software/dft-d3/zero_damping\n'
+    },
+    'alias': ['OTPSS-D3'],
+})
+funcs.append({
+    "name": "OTPSS-D3BJ",
+    "xc_functionals": {
+        "MGGA_XC_OTPSS_D": {}
+    },
+    "dispersion": {
+        "type": "d3bj2b",
+        "params": {
+            's6': 1.000,
+            'a1': 0.4634, # rs6
+            's8': 2.7495, # s18
+            'a2': 4.3153, # rs18
+        },
+        "citation": '    Grimme DFT-D3 Homepage. https://www.chemie.uni-bonn.de/grimme/de/software/dft-d3/bj_damping\n'
+    },
+})
+
+
 functional_list = {}
 for functional in funcs:
     functional_list[functional["name"].lower()] = functional
