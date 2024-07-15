@@ -643,7 +643,7 @@ funcs.append({
 
 funcs.append({
     "name": "t-HCTHh",
-    "alias": ["tHCTHh", "tau-HCTHh"],
+    "alias": ["tHCTHh", "tau-HCTHh", "tHCTHhyb", "tau-HCTHhyb"],
     "x_functionals": {
         "HYB_MGGA_X_TAU_HCTH": {
             "use_libxc": True,
